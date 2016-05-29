@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent_material_light"
+    tools:context="com.example.cursodam.aqua_ckeck.LecturasFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="left"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Lecturas "
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/tv_ArquetaNum"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="50dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Arqueta Num: "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_ArquetaNumDato"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="00"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_Paraje"
+            android:layout_width="match_parent"
+            android:paddingLeft="50dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Paraje :"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tv_ParajeDato"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="Colinas"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/tbLecturas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6">
+        <TableRow>
+
+            <TextView
+                style="@style/TitulosTabla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Id Cont."
+                android:id="@+id/tvref" />
+            <TextView
+                style="@style/TitulosTabla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Nombre"
+                android:id="@+id/tvNombreContador" />
+
+            <TextView
+                style="@style/TitulosTabla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Apellidos"
+                android:id="@+id/tvApellidosContador" />
+
+            <TextView
+                style="@style/TitulosTabla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Lec. Anterior"
+                android:id="@+id/tvLectAnterior" />
+
+            <TextView
+                style="@style/TitulosTabla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Lec. Actual"
+                android:id="@+id/tvLecActual" />
+
+            <TextView
+                style="@style/TitulosTabla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Consumo"
+                android:id="@+id/tvConsumo" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+</LinearLayout>

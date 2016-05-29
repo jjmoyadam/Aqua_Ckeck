@@ -1,0 +1,152 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent_material_light"
+    android:orientation="vertical"
+    tools:context="com.example.cursodam.aqua_ckeck.SociosFragment">
+
+    <TextView
+        style="@style/TituloFragment"
+        android:id="@+id/tv_tituloSocios"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Socios"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            style="@style/TituloCampo"
+            android:id="@+id/tv_idsocio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            style="@style/EditarCampo"
+            android:id="@+id/ed_idsocio"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:allowUndo="false" />
+
+        <TextView
+            style="@style/TituloCampo"
+            android:id="@+id/tv_dnisocio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DNI"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            style="@style/EditarCampo"
+            android:id="@+id/ed_dnisocio"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:allowUndo="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TituloCampo"
+            android:id="@+id/tv_nombresocio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            style="@style/EditarCampo"
+            android:id="@+id/ed_nombresocio"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:allowUndo="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TituloCampo"
+            android:id="@+id/tv_apellidossocio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellidos"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            style="@style/EditarCampo"
+            android:id="@+id/ed_apellidossocio"
+            android:layout_width="217dp"
+            android:layout_height="wrap_content"
+            android:allowUndo="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TituloCampo"
+            android:id="@+id/tv_direccionsocio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direccion"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            style="@style/EditarCampo"
+            android:id="@+id/ed_direccionsocio"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:allowUndo="false" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/TituloCampo"
+            android:id="@+id/tv_telefonosocio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefono"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            style="@style/EditarCampo"
+            android:id="@+id/ed_telefonosocio"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:allowUndo="false"
+            android:layout_weight="0.84" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

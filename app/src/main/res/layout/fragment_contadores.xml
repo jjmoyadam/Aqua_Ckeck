@@ -1,0 +1,105 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent_material_light"
+    tools:context="com.example.cursodam.aqua_ckeck.ContadoresFragment">
+
+    <TextView
+        style="@style/TituloFragment"
+        android:id="@+id/tv_tituloContadores"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contadores"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TituloCampo"
+                android:id="@+id/tv_idcontador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                style="@style/TituloCampo"
+                android:id="@+id/tv_sociocontador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Socio"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                style="@style/TituloCampo"
+                android:id="@+id/tv_numarqueta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nº Arqueta"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                style="@style/TituloCampo"
+                android:id="@+id/tv_paraje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paraje"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                style="@style/EditarCampo"
+                android:id="@+id/ed_numarqueta"
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:allowUndo="false" />
+
+            <EditText
+                style="@style/EditarCampo"
+                android:id="@+id/ed_idcontador"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:allowUndo="false"
+                android:padding="5dp" />
+
+
+
+            <EditText
+                style="@style/EditarCampo"
+                android:id="@+id/ed_dnisociocontador"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:allowUndo="false" />
+
+            <EditText
+                style="@style/EditarCampo"
+                android:id="@+id/ed_paraje"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:allowUndo="false" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

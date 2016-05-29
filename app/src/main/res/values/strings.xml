@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Aqua Ckeck 1.0</string>
+
+    <!-- Strings de menu -->
+    <string name="new_socio">Nuevo Socio</string>
+    <string name="save_socio">Guardar Socio</string>
+    <string name="delete_socio">Borrar Socio</string>
+    <string name="find_socio">Buscar Socio</string>
+
+    <!-- Strings de draw menu -->
+    <string name="itemSocio">Socios</string>
+    <string name="itemContador">Contadores</string>
+    <string name="itemLecturas">Lecturas</string>
+    <string name="itemOpciones">Opciones</string>
+    <string name="itemPortada">Portada</string>
+
+
+</resources>
